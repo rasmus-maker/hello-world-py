@@ -2,7 +2,7 @@
 
 A tiny Python utility that prints a friendly greeting.
 
-## Instalation
+## Installation
 
 ```bash
 git clone https://github.com/rasmus-maker/hello-world-py.git
