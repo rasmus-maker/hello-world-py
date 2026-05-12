@@ -12,12 +12,14 @@ cd hello-world-py
 ## Usage
 
 ```bash
-python greet.py          # prints: Hello, world!
-python greet.py Alice    # prints: Hello, Alice!
+python greet.py              # prints: Hello, world!
+python greet.py Alice        # prints: Hello, Alice!
+python greet.py Alice --shout  # prints: HELLO, ALICE!
 ```
 
 ## Running tests
 
 ```bash
-python -m pytest
+pip install pytest
+pytest
 ```
